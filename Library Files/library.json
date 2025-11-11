@@ -1,0 +1,21 @@
+{
+  "name": "MyTFT",
+  "version": "1.0.0",
+  "description": "Custom plug-and-play TFT library for MCUFRIEND 320x240 (ILI9341)",
+  "keywords": ["TFT", "MCUFRIEND", "graphics", "ESP32", "Arduino"],
+  "authors": [
+    {
+      "name": "A7mad_Alone",
+      "email": "ahmadadham09work@hotmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+    "adafruit/Adafruit GFX Library @ ^1.11.0",
+    "MCUFRIEND_kbv"
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32", "atmelavr", "espressif8266"],
+  "examples": "examples/*"
+}
